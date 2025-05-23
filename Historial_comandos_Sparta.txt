@@ -1,0 +1,125 @@
+pwd
+vagrant status
+exit
+echo "hola mundo" | wc
+ls
+ls -l
+vim luciano.txt
+ls -l
+rm luciano.txt
+ls -l
+exit
+sudo apt update tree
+sudo apt update
+sudo apt install tree
+ls -l
+tree carpeta_compartida/
+exit
+ssh-keygen
+cd
+pwd
+ls -la
+cd .shh/
+cd .shh
+cd .ssh/
+ls -la
+cat id_rsa.pub
+cd
+pwd
+git --version
+cd repogit
+git clone git@github.com:lucianosparta/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release > datos_url.txt
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls
+git add .
+git config --global user.email "lucianosparta0@gmail.com"
+git config --global user.name "lucianosparta"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+cd /proc
+ls -l
+cd cpuinfo
+cat cpuinfo
+grep "model name"
+cd
+pwd
+history
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+ls -l
+cat datos_usuario.txt 
+git add .
+cd repogit/
+ls -l
+cat TP_AySO/
+cd TP_AySO/
+ls -l
+cat datos_usuario.txt 
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git status
+git push
+cd
+ls
+cat datos_usuario.txt 
+> datos_usuario.txt
+cat datos_usuario.txt 
+ls
+cat README 
+cp README repogit/TP_AySO/
+cd repogit/TP_AySO/
+ls
+rm README
+ls
+cat README.md 
+cat << FIN >> README.md 
+Alumno: Luciano Sparta
+División: 117
+Turno: Mañana
+FIN
+
+cat README.md 
+git add README.md datos_usuarios.txt
+git add README.md datos_usuario.txt 
+git -m commit "ADD: Añadiendo Readme y datos de usuario"
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cd
+pwd
+ls
+mkdir -p estructura_dir/materia{1..2}/uni{1..3}
+ls
+tree estructura_dir/
+> script_dir.sh
+ls
+ls -l
+vim script_dir.sh
+vim script_dir.sh 
+cat script_dir.sh 
+ls -l
+sudo chmod 764 script_dir.sh 
+ls -l
+cp script_dir.sh repogit/
+cd repogit/
+ls -l
+mv script_dir.sh TP_AySO/
+ls -l
+cd TP_AySO/
+ls -l
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
